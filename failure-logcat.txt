@@ -1,0 +1,1191 @@
+Logcat requested via
+http://stackoverflow.com/questions/15044438/android-mediarecorder-not-working-media-server-died-error-100
+
+D/PhotoWall( 1370): ((ON DOWN))
+D/PhotoWall( 1370): ((TAP))
+I/ActivityManager( 1296): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.samsandberg.samvideo/.MainActivity bnds=[365,392][475,510] } from pid 1404
+I/WindowManager( 1296): Setting rotation to 1, animFlags=1
+I/ActivityManager( 1296): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=2/1/2 nav=3/1 orien=2 layout=34 uiMode=17 seq=22}
+D/PhotoWall( 1370): VISIBILITY CHANGED
+I/mm-camera(24261): openCameraHardware: call createInstance
+D/mm-camera(24261): createInstance: E
+D/mm-camera(24261):  Storing the current target type as 2 
+D/mm-camera(24261): constructor EX
+D/mm-camera(24261): startCamera E
+D/mm-camera(24261): loading liboemcamera at 0xb000da5c
+I/mm-camera(24261): Set main cam and main cam only
+I/mm-camera(24261): set sensor selection :0
+V/RenderScript_jni( 1404): surfaceDestroyed
+D/Launcher.AllApps3D( 1404): surfaceDestroyed
+D/Launcher.AllApps3D( 1404): set mMessageCallback null
+D/dalvikvm( 1404): GC_EXPLICIT freed 53K, 56% free 3450K/7751K, external 8500K/10548K, paused 37ms
+I/mm-camera(24261): Open Device node : /dev/msm_camera/control0
+I/mm-camera(24261): Open Device node : /dev/msm_camera/config0 
+I/mm-camera(24261): [AWB Calibration] from kernel: fuse_id: 0x0, 0x0, 0x4, 0x8403bb
+I/mm-camera-s5k4e1gx_u(24261): awiiAttr   _u read 0
+I/mm-camera-s5k4e1gx_u(24261): Inside s5k4e1gx_process_start 
+I/mm-camera(24261): [LSC Calibration]Sensor_set_mesh
+I/mm-camera(24261): [LSC Calibration] : call awb_get_fuseid
+I/mm-camera(24261): Read /data/lsc_cal fail
+I/mm-camera(24261): Read from file OK: /data/lsc_cal or /sys/android_camera_awb_cal/awb_cal
+I/mm-camera(24261): [LSC Calibration]: lsc_checksum=6c9b8356, lsc_verify=c1b
+I/mm-camera(24261): [LSC Calibration]: fuseid_1=0,fuseid_2=0,fuseid_3=4,fuseid_4=8403bb, sfuse.fuse_id_word1=0,sfuse.fuse_id_word2=0,sfuse.fuse_id_word3=4,sfuse.fuse_id_word4=8403bb
+I/mm-camera(24261): LSC_Calibration:   addr=a774ea9c, & addr=a774ea9c
+I/mm-camera(24261): LSC_Calibration: 	addr=a774f870, & addr=a774f870
+I/mm-camera(24261): LSC_Calibration: 	addr=a7750644, & addr=a7750644
+I/mm-camera(24261): LSC_Calibration: 	addr=a7751418, & addr=a7751418
+I/mm-camera(24261): LSC_Calibration: 	addr=a77521ec, & addr=a77521ec
+I/mm-camera-s5k4e1gx_u(24261): s5k4e1gx_process_start: [LSC Calibration] LSC is valid and set NEW mesh value
+I/mm-camera(24261): [AWB Calibration] fuse_id : 0x0, 0x0, 0x4, 0x8403bb
+I/mm-camera(24261): [AWB Calibration] fail to read /data/awb_cal, try another file
+I/mm-camera(24261): [AWB Calibration] read from file OK: /sys/android_camera_awb_cal/awb_cal
+I/mm-camera(24261): [AWB Calibration] nandflash data: 0xc1b, 0x2e2, 0x24c, 0x0, 0x0, 0x4, 0x8403bb, 0x9719d2e8
+I/mm-camera(24261): [AWB Calibration] check sum=9719d2e8, OK
+I/mm-camera(24261): [AWB Calibration] valid bit and fuseID pass, use new white points
+I/mm-camera(24261): [AWB Calibration] use light version: v3
+I/mm-camera-s5k4e1gx_u(24261): s5k4e1gx_register: table = 0xa77d0788
+I/mm-camera-s5k4e1gx_u(24261): get snapshot size pointer:0xa772339d
+D/mm-camera(24261): sensor_led_ctrl_init: camfd = 16
+D/mm-camera(24261): af_init_process_exhaustive_search sensor->af_exhaust_downhill_allowance 2, sensor->af_exhaust_fv_drop_allowance 0.800000
+I/mm-camera(24261): startCamera: camsensor name s5k4e1gx, flash 1
+I/mm-camera(24261): sctrl:0xa77cfbe8
+I/mm-camera(24261): sctrl->fn_table:0xa7723a35
+I/mm-camera(24261): sctrl->fn_table.get_snapshot_sizes:0xa772339d
+I/mm-camera-s5k4e1gx_u(24261): get table
+D/mm-camera(24261): startCamera X
+D/mm-camera(24261): initDefaultParameters E
+D/mm-camera(24261): product 7
+D/mm-camera(24261): init thumbnail width: 640, height: 480
+D/mm-camera(24261): native_access_parm: fd 15, type 78, length 2
+D/mm-camera(24261): native_access_parm: fd 15, type 1, length 32
+W/mm-camera(24261): native_access_parm: error (No such file or directory): fd 15, type 1, length 32, status 0
+D/mm-camera(24261): native_access_parm: fd 15, type 68, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 69, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 70, length 4
+V/mm-camera(24261): setParameters: E params = 0x1478c
+D/mm-camera(24261): requested preview size 640 x 480
+D/mm-camera(24261): requested picture size 2592 x 1952
+D/mm-camera(24261): requested Fps Range min: 9000 x max: 29453
+D/mm-camera(24261): value:310260, country value:310, country code:310
+D/mm-camera(24261): native_access_parm: fd 15, type 21, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 15, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 14, length 4
+D/mm-camera(24261): setFlash 0
+D/mm-camera(24261): native_access_parm: fd 15, type 49, length 4
+D/mm-camera(24261): In config_proc_CAMERA_SET_PARM_LED_MODE: 0
+D/mm-camera(24261): set_led_mode = 0, led_ctrl_p->led_mode = 0
+D/mm-camera(24261): flip-video = -1
+V/mm-camera(24261): Set zoom=0 40
+D/mm-camera(24261): native_access_parm: fd 15, type 2, length 4
+I/mm-camera(24261): Setting Contrast is 5
+D/mm-camera(24261): native_access_parm: fd 15, type 6, length 4
+D/mm-camera(24261): [ATS][adjust_contrast][complete]
+I/mm-camera(24261): Setting Brightness is 3
+D/mm-camera(24261): native_access_parm: fd 15, type 7, length 4
+I/mm-camera(24261): Setting Saturation is 5
+D/mm-camera(24261): native_access_parm: fd 15, type 11, length 4
+D/mm-camera(24261): [ATS][adjust_saturation][complete]
+I/mm-camera(24261): Setting Sharpness is 10
+D/mm-camera(24261): native_access_parm: fd 15, type 9, length 4
+D/mm-camera(24261): [ATS][adjust_sharpness][complete]
+D/mm-camera(24261): native_access_parm: fd 15, type 12, length 4
+D/mm-camera(24261): not defined touch-focus yet, or AP without touch-focus function
+I/mm-camera(24261): Before Setting coordinate x:320 y:240
+I/mm-camera(24261): Setting coordinate x:2 y:2
+D/mm-camera(24261): native_access_parm: fd 15, type 64, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 73, length 18
+D/mm-camera(24261): native_access_parm: fd 15, type 26, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 62, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 8, length 4
+V/mm-camera(24261): setThumbnailSize w=640 h=480
+D/mm-camera(24261): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=0
+V/mm-camera(24261): setParameters: X
+D/mm-camera(24261): initDefaultParameters X
+D/mm-camera(24261): createInstance: X created hardware=0x14788
+V/MediaPlayerService(24261): Client(1) constructor
+V/MediaPlayerService(24261): Create new client(1) from pid 24261, url=/system/media/audio/ui/camera_click.ogg, connId=1, audioSessionId=2
+V/MediaPlayerService(24261): setDataSource(/system/media/audio/ui/camera_click.ogg)
+V/MediaPlayerService(24261): isQCPFileFormat() url=/system/media/audio/ui/camera_click.ogg
+V/MediaPlayerService(24261): getPlayerTypeFromMAP(/system/media/audio/ui/camera_click.ogg): PLAYERS_MAP[22].playertype 0
+V/MediaPlayerService(24261): player type = 4
+V/MediaPlayerService(24261):  create StagefrightPlayer
+V/AudioSink(24261): AudioOutput(2)
+V/MediaPlayerService(24261):  setDataSource
+I/StagefrightPlayer(24261): setDataSource('/system/media/audio/ui/camera_click.ogg')
+V/MediaPlayerService(24261): [1] setAudioStreamType(7)
+V/MediaPlayerService(24261): [1] prepareAsync
+V/MediaPlayerService(24261): [1] notify (0x1d6f8, 5, 0, 0)
+V/MediaPlayerService(24261): [1] notify (0x1d6f8, 1, 0, 0)
+V/MediaPlayerService(24261): Client(2) constructor
+V/MediaPlayerService(24261): Create new client(2) from pid 24261, url=/system/media/audio/ui/VideoRecord.ogg, connId=2, audioSessionId=3
+V/MediaPlayerService(24261): setDataSource(/system/media/audio/ui/VideoRecord.ogg)
+V/MediaPlayerService(24261): isQCPFileFormat() url=/system/media/audio/ui/VideoRecord.ogg
+V/MediaPlayerService(24261): getPlayerTypeFromMAP(/system/media/audio/ui/VideoRecord.ogg): PLAYERS_MAP[22].playertype 0
+V/MediaPlayerService(24261): player type = 4
+V/MediaPlayerService(24261):  create StagefrightPlayer
+V/AudioSink(24261): AudioOutput(3)
+V/MediaPlayerService(24261):  setDataSource
+I/StagefrightPlayer(24261): setDataSource('/system/media/audio/ui/VideoRecord.ogg')
+V/MediaPlayerService(24261): [2] setAudioStreamType(7)
+V/MediaPlayerService(24261): [2] prepareAsync
+V/MediaPlayerService(24261): [2] notify (0x323f0, 5, 0, 0)
+V/MediaPlayerService(24261): [2] notify (0x323f0, 1, 0, 0)
+I/ActivityManager( 1296): Displayed com.samsandberg.samvideo/.MainActivity: +357ms
+W/mm-camera(24261):  Overlay object NULL. returning 
+D/Overlay ( 1296): createOverlay w=640 h=480 z=1
+E/CameraService(24261): OVERLAY CREATED....
+E/Overlay (24261): New mutex.. 
+V/mm-camera(24261):  Valid overlay object 
+D/mm-camera(24261): startPreview E
+D/mm-camera(24261): initPreview E: preview size=640x480
+D/mm-camera(24261): initPreview E: preview size=640x480 videosize = 640 x 480
+D/mm-camera(24261): initPreview : preview size=640x480 videosize = 640 x 480
+D/mm-camera(24261): initPreview: mFrameThreadWaitLock.lock()
+D/mm-camera(24261): initPreview: mFrameThreadWaitLock.unlock()
+V/mm-camera(24261): constructing MemPool preview backed by pmem pool /dev/pmem_adsp: 4 frames @ 460800 bytes, buffer size 460800
+V/mm-camera(24261): PmemPool: duplicating control fd 15 --> 40
+I/mm-camera(24261): pmem pool /dev/pmem_adsp ioctl(fd = 42, PMEM_GET_SIZE) is 1851392
+D/mm-camera(24261): mBufferSize=460800, mAlignedBufferSize=462848
+D/mm-camera(24261): num_buffers = 4
+I/mm-camera(24261): register_buf: camfd = 40, reg = 0 buffer = 0x40802000
+I/mm-camera(24261): register_buf: camfd = 40, reg = 0 buffer = 0x40873000
+I/mm-camera(24261): register_buf: camfd = 40, reg = 0 buffer = 0x408e4000
+I/mm-camera(24261): register_buf: camfd = 40, reg = 0 buffer = 0x40955000
+V/mm-camera(24261): initRecord: mDimension.video_width = 640 mDimension.video_height = 480
+V/mm-camera(24261): mRecordFrameSize = 0
+V/mm-camera(24261): constructing MemPool record backed by pmem pool /dev/pmem_adsp: 9 frames @ 460800 bytes, buffer size 460800
+V/mm-camera(24261): PmemPool: duplicating control fd 15 --> 43
+I/mm-camera(24261): pmem pool /dev/pmem_adsp ioctl(fd = 45, PMEM_GET_SIZE) is 4165632
+D/mm-camera(24261): mBufferSize=460800, mAlignedBufferSize=462848
+D/mm-camera(24261): num_buffers = 9
+V/mm-camera(24261):  pmempool creating video buffers : active 1 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x409c6000
+V/mm-camera(24261):  pmempool creating video buffers : active 1 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40a37000
+V/mm-camera(24261):  pmempool creating video buffers : active 1 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40aa8000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40b19000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40b8a000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40bfb000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40c6c000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40cdd000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40d4e000
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1083990016 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1084452864 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1084915712 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1085378560 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1085841408 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1086304256 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1086767104 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1087229952 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1087692800 fd=45 y_off=0 cbcr_off=307200 
+V/mm-camera(24261): cam_frame_flush_video: in n = 0
+V/mm-camera(24261): cam_frame_flush_video: out n = 0
+D/mm-camera(24261): initREcord X
+D/mm-camera(24261): native_access_parm: fd 15, type 1, length 32
+D/PowerManagerService( 1296): bl_tmp:80
+D/PowerManagerService( 1296): New lightsensor value:160, lcdValue:160
+D/PowerManagerService( 1296): lightSensorChangedLocked, buttonValue >= 0, mPowerState = 3
+D/mm-camera(24261): initpreview before cam_frame thread carete , video frame  buffer=1085378560 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initPreview X: 1
+W/mm-camera(24261): config_proc_CAMERA_START_VIDEO:Line:1366 This ioctl can fail if pp_mask is zero. 
+W/mm-camera(24261): config_proc_CAMERA_START_VIDEO:Line:1368 ioctl MSM_CAM_IOCTL_PICT_PP_DONE is failed...
+D/mm-camera(24261): frame_thread E
+V/mm-camera(24261): runFrameThread E
+V/mm-camera(24261): FRAME: loading libqcamera at 0xb000da5c
+I/CAMFRAME:(24261): Open Device node : /dev/msm_camera/frame0 
+D/mm-camera(24261): preview delay Dig_gain =1.000105, sparam->preview_fps 7540
+D/mm-camera(24261): start to set sce config.
+D/mm-camera(24261): sce at computeTRansforms m_p: 1.000000
+D/mm-camera(24261): sce m_p:1.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce m_p:1.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce m_p:1.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce m_p:1.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce m_p:1.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): set sce config done
+W/mm-camera(24261): vfe_util_sendcmd: MSM_CAM_IOCTL_CONFIG_VFE failed...
+W/mm-camera(24261): vfe_util_sendcmd: MSM_CAM_IOCTL_CONFIG_VFE failed...
+D/mm-camera(24261): startPreview X
+D/mm-camera(24261): [ATS][camera_preview][complete]
+D/mm-camera(24261): stopPreview: E
+D/mm-camera(24261): stopPreviewInternal E: 1
+D/mm-camera(24261): cancelAutoFocusInternal E
+V/mm-camera(24261): cancelAutoFocusInternal X: not in progress
+W/mm-camera(24261): VFE_RESET_ACK illegal ctrl->state 25
+I/mm-camera(24261): deinitPreview E
+I/mm-camera(24261): deinitPreview X
+D/mm-camera(24261): stopPreviewInternal X: 0
+D/mm-camera(24261): stopPreview: X
+D/mm-camera(24261): startPreview E
+D/mm-camera(24261): initPreview E: preview size=640x480
+D/mm-camera(24261): initPreview E: preview size=640x480 videosize = 640 x 480
+D/mm-camera(24261): initPreview : preview size=640x480 videosize = 640 x 480
+D/mm-camera(24261): initPreview: mFrameThreadWaitLock.lock()
+D/mm-camera(24261): initPreview: waiting for old frame thread to complete.
+V/mm-camera(24261): ~PmemPool: preview E
+I/mm-camera(24261): register_buf: camfd = 40, reg = 1 buffer = 0x40802000
+I/mm-camera(24261): register_buf: camfd = 40, reg = 1 buffer = 0x40873000
+I/mm-camera(24261): register_buf: camfd = 40, reg = 1 buffer = 0x408e4000
+I/mm-camera(24261): register_buf: camfd = 40, reg = 1 buffer = 0x40955000
+V/mm-camera(24261): destroying PmemPool preview: closing control fd 40
+V/mm-camera(24261): ~PmemPool: preview X
+V/mm-camera(24261): destroying MemPool preview
+V/mm-camera(24261): destroying MemPool preview completed
+V/mm-camera(24261): ~PmemPool: record E
+I/mm-camera(24261): register_buf: camfd = 43, reg = 1 buffer = 0x409c6000
+I/mm-camera(24261): register_buf: camfd = 43, reg = 1 buffer = 0x40a37000
+I/mm-camera(24261): register_buf: camfd = 43, reg = 1 buffer = 0x40aa8000
+I/mm-camera(24261): register_buf: camfd = 43, reg = 1 buffer = 0x40b19000
+I/mm-camera(24261): register_buf: camfd = 43, reg = 1 buffer = 0x40b8a000
+I/mm-camera(24261): register_buf: camfd = 43, reg = 1 buffer = 0x40bfb000
+I/mm-camera(24261): register_buf: camfd = 43, reg = 1 buffer = 0x40c6c000
+I/mm-camera(24261): register_buf: camfd = 43, reg = 1 buffer = 0x40cdd000
+I/mm-camera(24261): register_buf: camfd = 43, reg = 1 buffer = 0x40d4e000
+V/mm-camera(24261): destroying PmemPool record: closing control fd 43
+V/mm-camera(24261): ~PmemPool: record X
+V/mm-camera(24261): destroying MemPool record
+V/mm-camera(24261): destroying MemPool record completed
+V/mm-camera(24261): FRAME: dlclose(libqcamera)
+D/mm-camera(24261): initPreview: old frame thread completed.
+D/mm-camera(24261): initPreview: mFrameThreadWaitLock.unlock()
+V/mm-camera(24261): constructing MemPool preview backed by pmem pool /dev/pmem_adsp: 4 frames @ 460800 bytes, buffer size 460800
+V/mm-camera(24261): PmemPool: duplicating control fd 15 --> 40
+I/mm-camera(24261): pmem pool /dev/pmem_adsp ioctl(fd = 42, PMEM_GET_SIZE) is 1851392
+D/mm-camera(24261): mBufferSize=460800, mAlignedBufferSize=462848
+D/mm-camera(24261): num_buffers = 4
+I/mm-camera(24261): register_buf: camfd = 40, reg = 0 buffer = 0x40802000
+I/mm-camera(24261): register_buf: camfd = 40, reg = 0 buffer = 0x40873000
+I/mm-camera(24261): register_buf: camfd = 40, reg = 0 buffer = 0x408e4000
+I/mm-camera(24261): register_buf: camfd = 40, reg = 0 buffer = 0x40955000
+V/mm-camera(24261): initRecord: mDimension.video_width = 640 mDimension.video_height = 480
+V/mm-camera(24261): mRecordFrameSize = 460800
+V/mm-camera(24261): constructing MemPool record backed by pmem pool /dev/pmem_adsp: 9 frames @ 460800 bytes, buffer size 460800
+V/mm-camera(24261): PmemPool: duplicating control fd 15 --> 43
+I/mm-camera(24261): pmem pool /dev/pmem_adsp ioctl(fd = 45, PMEM_GET_SIZE) is 4165632
+D/mm-camera(24261): mBufferSize=460800, mAlignedBufferSize=462848
+D/mm-camera(24261): num_buffers = 9
+V/mm-camera(24261):  pmempool creating video buffers : active 1 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x409c6000
+V/mm-camera(24261):  pmempool creating video buffers : active 1 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40a37000
+V/mm-camera(24261):  pmempool creating video buffers : active 1 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40aa8000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40b19000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40b8a000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40bfb000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40c6c000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40cdd000
+V/mm-camera(24261):  pmempool creating video buffers : active 0 
+I/mm-camera(24261): register_buf: camfd = 43, reg = 0 buffer = 0x40d4e000
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1083990016 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1084452864 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1084915712 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1085378560 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1085841408 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1086304256 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1086767104 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1087229952 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initRecord :  record heap , video buffers  buffer=1087692800 fd=45 y_off=0 cbcr_off=307200 
+V/mm-camera(24261): cam_frame_flush_video: in n = 0
+V/mm-camera(24261): cam_frame_flush_video: out n = 0
+D/mm-camera(24261): initREcord X
+D/mm-camera(24261): native_access_parm: fd 15, type 1, length 32
+D/mm-camera(24261): initpreview before cam_frame thread carete , video frame  buffer=1085378560 fd=45 y_off=0 cbcr_off=307200 
+D/mm-camera(24261): initPreview X: 1
+W/mm-camera(24261): config_proc_CAMERA_START_VIDEO:Line:1366 This ioctl can fail if pp_mask is zero. 
+W/mm-camera(24261): config_proc_CAMERA_START_VIDEO:Line:1368 ioctl MSM_CAM_IOCTL_PICT_PP_DONE is failed...
+D/mm-camera(24261): preview delay Dig_gain =1.000105, sparam->preview_fps 7540
+D/mm-camera(24261): start to set sce config.
+D/mm-camera(24261): sce at computeTRansforms m_p: 1.000000
+D/mm-camera(24261): sce m_p:1.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce m_p:1.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce m_p:1.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+V/mm-camera(24261): runFrameThread X
+D/mm-camera(24261): frame_thread X
+D/mm-camera(24261): sce m_p:1.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce m_p:1.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): sce rEnd_Cr:40.000000,rEnd_Cb:-30.000000,Start_Cr:40.000000,Start_Cb:-30.000000
+D/mm-camera(24261): frame_thread E
+V/mm-camera(24261): runFrameThread E
+D/mm-camera(24261): set sce config done
+V/mm-camera(24261): FRAME: loading libqcamera at 0xb000da5c
+I/CAMFRAME:(24261): Open Device node : /dev/msm_camera/frame0 
+W/mm-camera(24261): vfe_util_sendcmd: MSM_CAM_IOCTL_CONFIG_VFE failed...
+W/mm-camera(24261): vfe_util_sendcmd: MSM_CAM_IOCTL_CONFIG_VFE failed...
+D/mm-camera(24261): startPreview X
+D/mm-camera(24261): [ATS][camera_preview][complete]
+W/mm-camera(24261):  Overlay object NULL. returning 
+W/mm-camera(24261):  Overlay object NULL. returning 
+D/Overlay ( 1296): destroyOverlay z=1
+D/Overlay ( 1296): createOverlay w=640 h=480 z=1
+E/CameraService(24261): OVERLAY CREATED....
+V/mm-camera(24261):  Valid overlay object 
+W/IInputConnectionWrapper( 1404): showStatusIcon on inactive InputConnection
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+D/mm-camera(24261): TRIGGER_LOWLIGHT
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+V/MediaPlayerService(24261): Create new media recorder client from pid 24233
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+D/dalvikvm( 1296): GC_EXPLICIT freed 58K, 42% free 7900K/13575K, external 2011K/2137K, paused 105ms
+I/MediaRecorderJNI(24233): prepare: surface=0x2d03c8 (identity=412)
+E/AudioHardwareMSM7X30(24261): ============= recording driver open. =============
+I/AudioHardwareMSM7X30(24261): ============= no active record node =============
+V/mm-camera(24261): setParameters: E params = 0xbe88c9fc
+D/mm-camera(24261): requested preview size 720 x 480
+D/mm-camera(24261): requested picture size 2592 x 1952
+D/mm-camera(24261): requested Fps Range min: 9000 x max: 29453
+D/mm-camera(24261): value:310260, country value:310, country code:310
+D/mm-camera(24261): native_access_parm: fd 15, type 21, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 15, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 14, length 4
+D/mm-camera(24261): setFlash 0
+D/mm-camera(24261): native_access_parm: fd 15, type 49, length 4
+D/mm-camera(24261): In config_proc_CAMERA_SET_PARM_LED_MODE: 0
+D/mm-camera(24261): set_led_mode = 0, led_ctrl_p->led_mode = 0
+D/mm-camera(24261): flip-video = -1
+V/mm-camera(24261): Set zoom=0 40
+D/mm-camera(24261): native_access_parm: fd 15, type 2, length 4
+I/mm-camera(24261): Setting Contrast is 5
+D/mm-camera(24261): native_access_parm: fd 15, type 6, length 4
+I/mm-camera(24261): Setting Brightness is 3
+D/mm-camera(24261): native_access_parm: fd 15, type 7, length 4
+I/mm-camera(24261): Setting Saturation is 5
+D/mm-camera(24261): native_access_parm: fd 15, type 11, length 4
+I/mm-camera(24261): Setting Sharpness is 10
+D/mm-camera(24261): native_access_parm: fd 15, type 9, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 12, length 4
+D/mm-camera(24261): not defined touch-focus yet, or AP without touch-focus function
+I/mm-camera(24261): Before Setting coordinate x:360 y:240
+I/mm-camera(24261): Setting coordinate x:2 y:2
+D/mm-camera(24261): native_access_parm: fd 15, type 64, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 73, length 18
+D/mm-camera(24261): native_access_parm: fd 15, type 26, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 62, length 4
+D/mm-camera(24261): native_access_parm: fd 15, type 8, length 4
+V/mm-camera(24261): setThumbnailSize w=640 h=480
+D/mm-camera(24261): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=0
+V/mm-camera(24261): setParameters: X
+E/StagefrightRecorder(24261): Failed to set frame rate to 30 fps. The actual frame rate is 15
+D/OMX-VENC-720p(24261): 
+D/OMX-VENC-720p(24261):  omx_video(): Inside Constructor()
+D/OMX-VENC-720p(24261): 
+D/OMX-VENC-720p(24261):  omx_venc(): Inside component_init()
+D/mm-camera(24261): TRIGGER_LOWLIGHT
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+D/OMX-VENC-720p(24261): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 4
+D/OMX-VENC-720p(24261): 
+D/OMX-VENC-720p(24261):  bool venc_dev::venc_open(OMX_U32)(): Init Profile/Level setting success
+D/OMX-VENC-720p(24261): 
+D/OMX-VENC-720p(24261):  Component_init return value = 0x0
+D/OMX-VENC-720p(24261): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 256
+D/OMX-VENC-720p(24261): 
+D/OMX-VENC-720p(24261):  bool venc_dev::venc_set_param(void*, OMX_INDEXTYPE)(): Profile/Level setting success
+D/OMX-VENC-720p(24261): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 256
+D/OMX-VENC-720p(24261): Calling set level (Framerate) with 17
+D/OMX-VENC-720p(24261): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 256
+D/OMX-VENC-720p(24261): Calling set level (Bitrate) with 17
+D/OMX-VENC-720p(24261): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 256
+D/OMX-VENC-720p(24261): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 256
+D/OMX-VENC-720p(24261): Calling set level (Bitrate) with 17
+I/MPEG4Writer(24261): limits: 2147483647/0 bytes/us, bit rate: 3012200 bps and the estimated moov size 3072 bytes
+D/AudioPolicyService(24261): AudioPolicyService::AudioCommandThread::parametersCommand()  before command->mCond.wait()
+I/AudioHardwareMSM7X30(24261): Routing audio to Speakerphone
+D/AudioPolicyService(24261): AudioPolicyService::AudioCommandThread::parametersCommand()  after command->mCond.wait()
+E/AudioHardwareMSM7X30(24261): ============= recording driver open. =============
+D/AudioHardwareMSM7X30(24261): addToTable (dec_id 1, dev_rx -1, dev_tx 11, type 2, active 1)
+E/AudioHardwareMSM7X30(24261): msm_en_device failed
+D/AudioHardwareMSM7X30(24261): deleteFromTable, type 2
+E/AudioFlinger(24261): Error reading audio input
+I/AudioHardwareMSM7X30(24261): ============= no active record node =============
+D/AudioPolicyService(24261): AudioPolicyService::AudioCommandThread::parametersCommand()  before command->mCond.wait()
+I/AudioHardwareMSM7X30(24261): Routing audio to Speakerphone
+D/AudioPolicyService(24261): AudioPolicyService::AudioCommandThread::parametersCommand()  after command->mCond.wait()
+D/AMRNBEncoder(24261): AMRNB ENCODER start with mode:7
+D/mm-camera(24261): virtual bool android::QualcommCameraHardware::recordingEnabled() recordingState=0
+D/mm-camera(24261): startRecording E
+D/mm-camera(24261): [ATS][press_jogball][recording]
+V/mm-camera(24261): startPreview X: preview already running.
+V/mm-camera(24261):  in startREcording : calling native_start_recording
+D/mm-camera(24261): native_start_video: ioctl good. ioctl return value is 0 
+E/mm-camera(24261): frames in busy Q = 0
+E/mm-camera(24261): frames in busy Q = 0 after deq and add to freeQ
+D/mm-camera(24261): [ATS][record_video][complete]
+I/OMXCodec(24261): [OMX.qcom.video.encoder.avc] allocating 9 buffers of size 518400 on input port
+D/CameraService(24261):  getBufferInfo : E
+V/mm-camera(24261):  getBufferInfo : E 
+V/mm-camera(24261):  Setting valid buffer information 
+V/mm-camera(24261):  HAL : alignedSize = 462848 
+V/mm-camera(24261):  getBufferInfo : X 
+I/OMXCodec(24261): getParametersSync: pmem_fd = 45, base = 0x409c6000, temp_offset 0, temp_size 460800, alignedSize = 462848, pointer 0x409c6000, Total Size = 4165632
+D/OMX-VENC-720p(24261): use_input_buffer: port = 0 appData = 0xbe88c8e0 bytes = 460800 buffer = 0x409c6000
+D/OMX-VENC-720p(24261): 
+D/OMX-VENC-720p(24261): ERROR: use_input_buffer: Size Mismatch!! bytes[460800] != Port.nBufferSize[518400]
+E/OMXNodeInstance(24261): OMX_UseBuffer failed with error -2147479547 (0x80001005)
+E/OMXCodec(24261): allocate_buffer_with_backup failed
+F/OMXCodec(24261): frameworks/base/media/libstagefright/OMXCodec.cpp:1638 err != OK
+V/mm-camera(24261): video_thread E
+D/mm-camera(24261): runVideoThread E
+V/mm-camera(24261): in video_thread : wait for video frame 
+V/mm-camera(24261): cam_frame_wait_video E 
+D/mm-camera(24261): TRIGGER_LOWLIGHT
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+I/DEBUG   ( 1217): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 1217): Build fingerprint: 'tmobile/htc_vision/vision:2.3.4/GRJ22/69706.5:user/release-keys'
+I/DEBUG   ( 1217): pid: 24261, tid: 24261  >>> /system/bin/mediaserver <<<
+I/DEBUG   ( 1217): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr deadbaad
+I/DEBUG   ( 1217):  r0 00000027  r1 deadbaad  r2 00000008  r3 00000000
+I/DEBUG   ( 1217):  r4 00000001  r5 00000000  r6 00049f10  r7 0004a9d0
+I/DEBUG   ( 1217):  r8 be88cbf0  r9 00005ec5  10 000003f5  fp 00000000
+I/DEBUG   ( 1217):  ip afd46668  sp be88c5f0  lr afd19c95  pc afd15cf4  cpsr 60000030
+I/DEBUG   ( 1217):  d0  212072726520383d  d1  36313a7070632e20
+I/DEBUG   ( 1217):  d2  61747362696c2f4f  d3  746867697266654b
+I/DEBUG   ( 1217):  d4  0000000100000000  d5  0000000080f0ea78
+I/DEBUG   ( 1217):  d6  000001e0000002d0  d7  0000000000000000
+I/DEBUG   ( 1217):  d8  0000000000000000  d9  0000000000000000
+I/DEBUG   ( 1217):  d10 0000000000000000  d11 0000000000000000
+I/DEBUG   ( 1217):  d12 0000000000000000  d13 0000000000000000
+I/DEBUG   ( 1217):  d14 0000000000000000  d15 0000000000000000
+I/DEBUG   ( 1217):  d16 000000053c3ec35c  d17 3ff0000000000000
+I/DEBUG   ( 1217):  d18 7e37e43c8800759c  d19 0000000000000000
+I/DEBUG   ( 1217):  d20 0000000000000000  d21 0000000000000000
+I/DEBUG   ( 1217):  d22 0000000000000000  d23 0000000000000000
+I/DEBUG   ( 1217):  d24 0000000000000000  d25 0000000000000000
+I/DEBUG   ( 1217):  d26 0000000000000000  d27 0000000000000000
+I/DEBUG   ( 1217):  d28 0000000000000000  d29 0000000000000000
+I/DEBUG   ( 1217):  d30 0000000000000000  d31 0000000000000000
+I/DEBUG   ( 1217):  scr 20000010
+I/DEBUG   ( 1217): 
+D/mm-camera(24261): TRIGGER_LOWLIGHT
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+I/DEBUG   ( 1217):          #00  pc 00015cf4  /system/lib/libc.so
+I/DEBUG   ( 1217):          #01  pc 0000143a  /system/lib/liblog.so
+I/DEBUG   ( 1217):          #02  pc 0005f44e  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):          #03  pc 0005f5ea  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):          #04  pc 00054f4e  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):          #05  pc 00054ff6  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):          #06  pc 00057f26  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):          #07  pc 0001c310  /system/lib/libmediaplayerservice.so
+I/DEBUG   ( 1217):          #08  pc 0001c69e  /system/lib/libmediaplayerservice.so
+I/DEBUG   ( 1217):          #09  pc 0001384e  /system/lib/libmediaplayerservice.so
+I/DEBUG   ( 1217):          #10  pc 00038d36  /system/lib/libmedia.so
+I/DEBUG   ( 1217): 
+I/DEBUG   ( 1217): code around pc:
+I/DEBUG   ( 1217): afd15cd4 2c006824 e028d1fb b13368db c064f8df 
+I/DEBUG   ( 1217): afd15ce4 44fc2401 4000f8cc 49124798 25002027 
+I/DEBUG   ( 1217): afd15cf4 f7f57008 2106ec54 edb0f7f6 460aa901 
+I/DEBUG   ( 1217): afd15d04 f04f2006 95015380 95029303 e916f7f6 
+I/DEBUG   ( 1217): afd15d14 462aa905 f7f62002 f7f5e922 2106ec40 
+I/DEBUG   ( 1217): 
+I/DEBUG   ( 1217): code around lr:
+I/DEBUG   ( 1217): afd19c74 000ef9b0 22022100 ec68f7f1 462a89a1 
+I/DEBUG   ( 1217): afd19c84 5080f421 81a04631 000ef9b4 ebeef7f1 
+I/DEBUG   ( 1217): afd19c94 bf00bd70 4604b510 000ef9b0 ebd6f7f1 
+I/DEBUG   ( 1217): afd19ca4 bfbe2800 f42389a3 81a35380 6d21db02 
+I/DEBUG   ( 1217): afd19cb4 6523180b bf00bd10 41f3e92d f44f4606 
+I/DEBUG   ( 1217): 
+I/DEBUG   ( 1217): stack:
+I/DEBUG   ( 1217):     be88c5b0  afd4682c  
+I/DEBUG   ( 1217):     be88c5b4  0004df28  
+I/DEBUG   ( 1217):     be88c5b8  00000008  
+I/DEBUG   ( 1217):     be88c5bc  afd18305  /system/lib/libc.so
+I/DEBUG   ( 1217):     be88c5c0  afd42604  
+I/DEBUG   ( 1217):     be88c5c4  afd4682c  
+I/DEBUG   ( 1217):     be88c5c8  00000000  
+I/DEBUG   ( 1217):     be88c5cc  afd1925d  /system/lib/libc.so
+I/DEBUG   ( 1217):     be88c5d0  00000001  
+I/DEBUG   ( 1217):     be88c5d4  be88c604  
+I/DEBUG   ( 1217):     be88c5d8  00049f10  
+I/DEBUG   ( 1217):     be88c5dc  0004a9d0  
+I/DEBUG   ( 1217):     be88c5e0  be88cbf0  
+I/DEBUG   ( 1217):     be88c5e4  afd1855f  /system/lib/libc.so
+I/DEBUG   ( 1217):     be88c5e8  df002777  
+I/DEBUG   ( 1217):     be88c5ec  e3a070ad  
+I/DEBUG   ( 1217): #00 be88c5f0  be88c5ec  
+I/DEBUG   ( 1217):     be88c5f4  00000001  
+I/DEBUG   ( 1217):     be88c5f8  a3040499  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):     be88c5fc  00000009  
+I/DEBUG   ( 1217):     be88c600  be88c61c  
+I/DEBUG   ( 1217):     be88c604  fffffbdf  
+I/DEBUG   ( 1217):     be88c608  be88c61c  
+I/DEBUG   ( 1217):     be88c60c  be88c61c  
+I/DEBUG   ( 1217):     be88c610  a3040499  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):     be88c614  afa0143d  /system/lib/liblog.so
+I/DEBUG   ( 1217): #01 be88c618  be88ca34  
+I/DEBUG   ( 1217):     be88c61c  6d617266  
+I/DEBUG   ( 1217):     be88c620  726f7765  
+I/DEBUG   ( 1217):     be88c624  622f736b  
+I/DEBUG   ( 1217):     be88c628  2f657361  
+I/DEBUG   ( 1217):     be88c62c  6964656d  
+I/DEBUG   ( 1217):     be88c630  696c2f61  
+I/DEBUG   ( 1217):     be88c634  61747362  
+I/DEBUG   ( 1217):     be88c638  72666567  
+I/DEBUG   ( 1217):     be88c63c  74686769  
+I/DEBUG   ( 1217):     be88c640  584d4f2f  
+I/DEBUG   ( 1217):     be88c644  65646f43  
+I/DEBUG   ( 1217):     be88c648  70632e63  
+I/DEBUG   ( 1217):     be88c64c  36313a70  
+I/DEBUG   ( 1217):     be88c650  65203833  
+I/DEBUG   ( 1217):     be88c654  21207272  
+I/DEBUG   ( 1217):     be88c658  4b4f203d  
+I/DEBUG   ( 1217):     be88c65c  afa01400  /system/lib/liblog.so
+I/DEBUG   ( 1217):     be88c660  be88ca84  
+I/DEBUG   ( 1217):     be88c664  696d696c  
+I/DEBUG   ( 1217):     be88c668  203a7374  
+I/DEBUG   ( 1217):     be88c66c  37343132  
+I/DEBUG   ( 1217):     be88c670  36333834  
+I/DEBUG   ( 1217):     be88c674  302f3734  
+I/DEBUG   ( 1217):     be88c678  74796220  
+I/DEBUG   ( 1217):     be88c67c  752f7365  
+I/DEBUG   ( 1217):     be88c680  62202c73  
+I/DEBUG   ( 1217):     be88c684  be88c624  
+I/DEBUG   ( 1217):     be88c688  00000000  
+I/DEBUG   ( 1217):     be88c68c  00000000  
+I/DEBUG   ( 1217):     be88c690  30303232  
+I/DEBUG   ( 1217):     be88c694  73706220  
+I/DEBUG   ( 1217):     be88c698  646e6120  
+I/DEBUG   ( 1217):     be88c69c  65687420  
+I/DEBUG   ( 1217):     be88c6a0  74736520  
+I/DEBUG   ( 1217):     be88c6a4  74616d69  
+I/DEBUG   ( 1217):     be88c6a8  be88c8c4  
+I/DEBUG   ( 1217):     be88c6ac  20766f6f  
+I/DEBUG   ( 1217):     be88c6b0  00000000  
+I/DEBUG   ( 1217):     be88c6b4  37303320  
+I/DEBUG   ( 1217):     be88c6b8  79622032  
+I/DEBUG   ( 1217):     be88c6bc  00736574  
+I/DEBUG   ( 1217):     be88c6c0  afd41588  
+I/DEBUG   ( 1217):     be88c6c4  0002048c  
+I/DEBUG   ( 1217):     be88c6c8  afd41588  
+I/DEBUG   ( 1217):     be88c6cc  afd41588  
+I/DEBUG   ( 1217):     be88c6d0  00000002  
+I/DEBUG   ( 1217):     be88c6d4  be88c8cb  
+I/DEBUG   ( 1217):     be88c6d8  00000001  
+I/DEBUG   ( 1217):     be88c6dc  be88c8d2  
+I/DEBUG   ( 1217):     be88c6e0  00000002  
+I/DEBUG   ( 1217):     be88c6e4  be88c98c  
+I/DEBUG   ( 1217):     be88c6e8  be88c952  
+I/DEBUG   ( 1217):     be88c6ec  00000002  
+I/DEBUG   ( 1217):     be88c6f0  ffffffff  
+I/DEBUG   ( 1217):     be88c6f4  afd1a917  /system/lib/libc.so
+I/DEBUG   ( 1217):     be88c6f8  be88ca04  
+I/DEBUG   ( 1217):     be88c6fc  43760281  
+I/DEBUG   ( 1217):     be88c700  00000000  
+I/DEBUG   ( 1217):     be88c704  00000001  
+I/DEBUG   ( 1217):     be88c708  be88c74c  
+I/DEBUG   ( 1217):     be88c70c  00000546  
+I/DEBUG   ( 1217):     be88c710  be88c748  
+I/DEBUG   ( 1217):     be88c714  80f0a8a3  /system/lib/libOmxVenc.so
+I/DEBUG   ( 1217):     be88c718  80f0ead8  /system/lib/libOmxVenc.so
+I/DEBUG   ( 1217):     be88c71c  80f0c930  /system/lib/libOmxVenc.so
+I/DEBUG   ( 1217):     be88c720  00000001  
+I/DEBUG   ( 1217):     be88c724  00000100  
+I/DEBUG   ( 1217):     be88c728  00049b88  
+I/DEBUG   ( 1217):     be88c72c  00000000  
+I/DEBUG   ( 1217):     be88c730  00000034  
+I/DEBUG   ( 1217):     be88c734  be88c744  
+I/DEBUG   ( 1217):     be88c738  80f0ae71  /system/lib/libOmxVenc.so
+I/DEBUG   ( 1217):     be88c73c  40085007  
+I/DEBUG   ( 1217):     be88c740  be88c750  
+I/DEBUG   ( 1217):     be88c744  00000100  
+I/DEBUG   ( 1217):     be88c748  00000100  
+I/DEBUG   ( 1217):     be88c74c  43760281  
+I/DEBUG   ( 1217):     be88c750  be88c758  
+I/DEBUG   ( 1217):     be88c754  00049b88  
+I/DEBUG   ( 1217):     be88c758  00049b88  
+I/DEBUG   ( 1217):     be88c75c  00000000  
+I/DEBUG   ( 1217):     be88c760  00049f70  
+I/DEBUG   ( 1217):     be88c764  00049f78  
+I/DEBUG   ( 1217):     be88c768  00002010  
+I/DEBUG   ( 1217):     be88c76c  00000001  
+I/DEBUG   ( 1217):     be88c770  00049f88  
+I/DEBUG   ( 1217):     be88c774  0000a000  
+I/DEBUG   ( 1217):     be88c778  00000001  
+I/DEBUG   ( 1217):     be88c77c  00049f28  
+I/DEBUG   ( 1217):     be88c780  fffffffe  
+I/DEBUG   ( 1217):     be88c784  afd13663  /system/lib/libc.so
+I/DEBUG   ( 1217):     be88c788  0001c474  
+I/DEBUG   ( 1217):     be88c78c  00000001  
+I/DEBUG   ( 1217):     be88c790  00002014  
+I/DEBUG   ( 1217):     be88c794  00000001  
+I/DEBUG   ( 1217):     be88c798  0001c440  
+I/DEBUG   ( 1217):     be88c79c  0000a000  
+I/DEBUG   ( 1217):     be88c7a0  00000001  
+I/DEBUG   ( 1217):     be88c7a4  00049f28  
+I/DEBUG   ( 1217):     be88c7a8  fffffffe  
+I/DEBUG   ( 1217):     be88c7ac  afd13663  /system/lib/libc.so
+I/DEBUG   ( 1217):     be88c7b0  00000000  
+I/DEBUG   ( 1217):     be88c7b4  00049f28  
+I/DEBUG   ( 1217):     be88c7b8  00000001  
+I/DEBUG   ( 1217):     be88c7bc  00049fa8  
+I/DEBUG   ( 1217):     be88c7c0  00000037  
+I/DEBUG   ( 1217):     be88c7c4  00474000  
+I/DEBUG   ( 1217):     be88c7c8  00000037  
+I/DEBUG   ( 1217):     be88c7cc  be88c7dc  
+I/DEBUG   ( 1217):     be88c7d0  af90aab1  /system/lib/libcutils.so
+I/DEBUG   ( 1217):     be88c7d4  40047703  
+I/DEBUG   ( 1217):     be88c7d8  00474000  
+I/DEBUG   ( 1217):     be88c7dc  be88c7dc  
+I/DEBUG   ( 1217):     be88c7e0  000118e4  
+I/DEBUG   ( 1217):     be88c7e4  43584d4f  
+I/DEBUG   ( 1217):     be88c7e8  6365646f  
+I/DEBUG   ( 1217):     be88c7ec  00000000  
+I/DEBUG   ( 1217):     be88c7f0  be88c86c  
+I/DEBUG   ( 1217):     be88c7f4  00000000  
+I/DEBUG   ( 1217):     be88c7f8  000118e4  
+I/DEBUG   ( 1217):     be88c7fc  a811d259  /system/lib/libutils.so
+I/DEBUG   ( 1217):     be88c800  be88c86c  
+I/DEBUG   ( 1217):     be88c804  a8d2b325  /system/lib/libaudioflinger.so
+I/DEBUG   ( 1217):     be88c808  be88c86c  
+I/DEBUG   ( 1217):     be88c80c  a8d2b549  /system/lib/libaudioflinger.so
+I/DEBUG   ( 1217):     be88c810  0000003b  
+I/DEBUG   ( 1217):     be88c814  0004a768  
+I/DEBUG   ( 1217):     be88c818  be88c890  
+I/DEBUG   ( 1217):     be88c81c  43760281  
+I/DEBUG   ( 1217):     be88c820  00000001  
+I/DEBUG   ( 1217):     be88c824  0004cbf8  
+I/DEBUG   ( 1217):     be88c828  be88c8f4  
+I/DEBUG   ( 1217):     be88c82c  80f0c9f8  /system/lib/libOmxVenc.so
+I/DEBUG   ( 1217):     be88c830  409c6000  
+I/DEBUG   ( 1217):     be88c834  80f06c35  /system/lib/libOmxVenc.so
+I/DEBUG   ( 1217):     be88c838  80f0d340  /system/lib/libOmxVenc.so
+I/DEBUG   ( 1217):     be88c83c  00070800  
+I/DEBUG   ( 1217):     be88c840  0007e900  
+I/DEBUG   ( 1217):     be88c844  00070800  
+I/DEBUG   ( 1217):     be88c848  409c6000  
+I/DEBUG   ( 1217):     be88c84c  00000037  
+I/DEBUG   ( 1217):     be88c850  00000037  
+I/DEBUG   ( 1217):     be88c854  00000000  
+I/DEBUG   ( 1217):     be88c858  00000037  
+I/DEBUG   ( 1217):     be88c85c  00000000  
+I/DEBUG   ( 1217):     be88c860  0004cbf8  
+I/DEBUG   ( 1217):     be88c864  00070800  
+I/DEBUG   ( 1217):     be88c868  be88c8e0  
+I/DEBUG   ( 1217):     be88c86c  00000000  
+I/DEBUG   ( 1217):     be88c870  be88c9f0  
+I/DEBUG   ( 1217):     be88c874  80f08001  /system/lib/libOmxVenc.so
+I/DEBUG   ( 1217):     be88c878  00006000  
+I/DEBUG   ( 1217):     be88c87c  00000001  
+I/DEBUG   ( 1217):     be88c880  0004ab90  
+I/DEBUG   ( 1217):     be88c884  0000a000  
+I/DEBUG   ( 1217):     be88c888  0007e900  
+I/DEBUG   ( 1217):     be88c88c  be88c9d0  
+I/DEBUG   ( 1217):     be88c890  00070800  
+I/DEBUG   ( 1217):     be88c894  afd13663  /system/lib/libc.so
+I/DEBUG   ( 1217):     be88c898  0004ab60  
+I/DEBUG   ( 1217):     be88c89c  0004ab78  
+I/DEBUG   ( 1217):     be88c8a0  00000000  
+I/DEBUG   ( 1217):     be88c8a4  00000000  
+I/DEBUG   ( 1217):     be88c8a8  0004ab48  
+I/DEBUG   ( 1217):     be88c8ac  0004abc0  
+I/DEBUG   ( 1217):     be88c8b0  0004aba8  
+I/DEBUG   ( 1217):     be88c8b4  a8221144  
+I/DEBUG   ( 1217):     be88c8b8  0004aba8  
+I/DEBUG   ( 1217):     be88c8bc  a8214f3f  /system/lib/libbinder.so
+I/DEBUG   ( 1217):     be88c8c0  0004abe8  
+I/DEBUG   ( 1217):     be88c8c4  00000208  
+I/DEBUG   ( 1217):     be88c8c8  00055f28  
+I/DEBUG   ( 1217):     be88c8cc  0000a000  
+I/DEBUG   ( 1217):     be88c8d0  00000000  
+I/DEBUG   ( 1217):     be88c8d4  be88c9d0  
+I/DEBUG   ( 1217):     be88c8d8  00070800  
+I/DEBUG   ( 1217):     be88c8dc  afd13663  /system/lib/libc.so
+I/DEBUG   ( 1217):     be88c8e0  0004abd8  
+I/DEBUG   ( 1217):     be88c8e4  be88c9f4  
+I/DEBUG   ( 1217):     be88c8e8  be88c9f4  
+I/DEBUG   ( 1217):     be88c8ec  00000000  
+I/DEBUG   ( 1217):     be88c8f0  00000000  
+I/DEBUG   ( 1217):     be88c8f4  afd14529  /system/lib/libc.so
+I/DEBUG   ( 1217):     be88c8f8  00047150  
+I/DEBUG   ( 1217):     be88c8fc  be88ca04  
+I/DEBUG   ( 1217):     be88c900  be88ca04  
+I/DEBUG   ( 1217):     be88c904  a8114b9d  /system/lib/libutils.so
+I/DEBUG   ( 1217):     be88c908  00047140  
+I/DEBUG   ( 1217):     be88c90c  00047150  
+I/DEBUG   ( 1217):     be88c910  be88ca04  
+I/DEBUG   ( 1217):     be88c914  a8114cbb  /system/lib/libutils.so
+I/DEBUG   ( 1217):     be88c918  be88ca04  
+I/DEBUG   ( 1217):     be88c91c  00000000  
+I/DEBUG   ( 1217):     be88c920  80000000  /system/lib/libaudioalsa.so
+I/DEBUG   ( 1217):     be88c924  a2f5bce3  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):     be88c928  00049df0  
+I/DEBUG   ( 1217):     be88c92c  a2f5e807  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):     be88c930  be88c9f0  
+I/DEBUG   ( 1217):     be88c934  00000000  
+I/DEBUG   ( 1217):     be88c938  00070800  
+I/DEBUG   ( 1217):     be88c93c  00071000  
+I/DEBUG   ( 1217):     be88c940  409c6000  
+I/DEBUG   ( 1217):     be88c944  003f9000  
+I/DEBUG   ( 1217):     be88c948  be88c9e8  
+I/DEBUG   ( 1217):     be88c94c  00071000  
+I/DEBUG   ( 1217):     be88c950  409c6000  
+I/DEBUG   ( 1217):     be88c954  a3040499  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):     be88c958  a3044d98  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):     be88c95c  be88c9e0  
+I/DEBUG   ( 1217):     be88c960  00049e48  
+I/DEBUG   ( 1217):     be88c964  00049df8  
+I/DEBUG   ( 1217):     be88c968  0000002d  
+I/DEBUG   ( 1217):     be88c96c  00049e38  
+I/DEBUG   ( 1217):     be88c970  00000060  
+I/DEBUG   ( 1217):     be88c974  00000101  
+I/DEBUG   ( 1217):     be88c978  00000000  
+I/DEBUG   ( 1217):     be88c97c  00000000  
+I/DEBUG   ( 1217):     be88c980  00000009  
+I/DEBUG   ( 1217):     be88c984  00000001  
+I/DEBUG   ( 1217):     be88c988  0007e900  
+I/DEBUG   ( 1217):     be88c98c  00000001  
+I/DEBUG   ( 1217):     be88c990  00000000  
+I/DEBUG   ( 1217):     be88c994  00000001  
+I/DEBUG   ( 1217):     be88c998  80f0ea78  /system/lib/libOmxVenc.so
+I/DEBUG   ( 1217):     be88c99c  00000000  
+I/DEBUG   ( 1217):     be88c9a0  000002d0  
+I/DEBUG   ( 1217):     be88c9a4  000001e0  
+I/DEBUG   ( 1217):     be88c9a8  00000000  
+I/DEBUG   ( 1217):     be88c9ac  00000000  
+I/DEBUG   ( 1217):     be88c9b0  002dc6c0  
+I/DEBUG   ( 1217):     be88c9b4  001e0000  
+I/DEBUG   ( 1217):     be88c9b8  00000000  
+I/DEBUG   ( 1217):     be88c9bc  00000000  
+I/DEBUG   ( 1217):     be88c9c0  00000015  
+I/DEBUG   ( 1217):     be88c9c4  00000000  
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+I/DEBUG   ( 1217):     be88c9c8  00000000  
+I/DEBUG   ( 1217):     be88c9cc  00000000  
+I/DEBUG   ( 1217):     be88c9d0  0004aa1c  
+I/DEBUG   ( 1217):     be88c9d4  a2f58a19  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):     be88c9d8  00000000  
+I/DEBUG   ( 1217):     be88c9dc  0007e900  
+I/DEBUG   ( 1217):     be88c9e0  00000000  
+I/DEBUG   ( 1217):     be88c9e4  0004a9d0  
+V/mm-camera(24261): receive_camframe_video_callback E
+V/mm-camera(24261): cam_frame_post_video... in = 40aa8000
+V/mm-camera(24261): post_video got lock. q count before enQ 0
+V/mm-camera(24261):  post video , enqueing in busy queue
+V/mm-camera(24261): post_video got lock. q count after enQ 1
+V/mm-camera(24261): cam_frame_post_video... out = 40aa8000
+V/mm-camera(24261): receive_camframe_video_callback X
+V/mm-camera(24261): cam_frame_wait_video X
+V/mm-camera(24261): video_thread, wait over..
+V/mm-camera(24261): cam_frame_get_video... in
+V/mm-camera(24261): cam_frame_get_video... got lock
+V/mm-camera(24261): cam_frame_get_video... out = 40aa8000
+V/mm-camera(24261): in video_thread : got video frame 
+V/mm-camera(24261): Got video frame :  buffer 1084915712 base 1083990016 
+V/mm-camera(24261): offset = 925696 , alignsize = 462848 , offset later = 2
+V/mm-camera(24261): recording timestamp: vframe->ts.tv_sec 22485, vframe->ts.tv_nsec 843457627
+V/mm-camera(24261): in video_thread : got video frame, before if check giving frame to services/encoder
+V/mm-camera(24261): in video_thread : got video frame, giving frame to services/encoder
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+V/mm-camera(24261): in video_thread : wait for video frame 
+V/mm-camera(24261): cam_frame_wait_video E 
+I/DEBUG   ( 1217):     be88c9e8  0004abf0  
+I/DEBUG   ( 1217):     be88c9ec  0004abf0  
+I/DEBUG   ( 1217):     be88c9f0  00000000  
+I/DEBUG   ( 1217):     be88c9f4  0004aba8  
+I/DEBUG   ( 1217):     be88c9f8  00047130  
+I/DEBUG   ( 1217):     be88c9fc  00070800  
+I/DEBUG   ( 1217):     be88ca00  00071000  
+I/DEBUG   ( 1217):     be88ca04  00047130  
+I/DEBUG   ( 1217):     be88ca08  00000000  
+I/DEBUG   ( 1217):     be88ca0c  00049df0  
+I/DEBUG   ( 1217):     be88ca10  00049eb0  
+I/DEBUG   ( 1217):     be88ca14  00049f10  
+I/DEBUG   ( 1217):     be88ca18  0004a9d0  
+I/DEBUG   ( 1217):     be88ca1c  43760281  
+I/DEBUG   ( 1217):     be88ca20  00005ec5  
+I/DEBUG   ( 1217):     be88ca24  00049df0  
+I/DEBUG   ( 1217):     be88ca28  00049eb0  
+I/DEBUG   ( 1217):     be88ca2c  a2f5f451  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):     be88ca30  a3045c76  /system/lib/libstagefright.so
+I/DEBUG   ( 1217):     be88ca34  00000000  
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+V/mm-camera(24261): receive_camframe_video_callback E
+V/mm-camera(24261): cam_frame_post_video... in = 40a37000
+V/mm-camera(24261): post_video got lock. q count before enQ 0
+V/mm-camera(24261):  post video , enqueing in busy queue
+V/mm-camera(24261): post_video got lock. q count after enQ 1
+V/mm-camera(24261): cam_frame_post_video... out = 40a37000
+V/mm-camera(24261): receive_camframe_video_callback X
+V/mm-camera(24261): cam_frame_wait_video X
+V/mm-camera(24261): video_thread, wait over..
+V/mm-camera(24261): cam_frame_get_video... in
+V/mm-camera(24261): cam_frame_get_video... got lock
+V/mm-camera(24261): cam_frame_get_video... out = 40a37000
+V/mm-camera(24261): in video_thread : got video frame 
+V/mm-camera(24261): Got video frame :  buffer 1084452864 base 1083990016 
+V/mm-camera(24261): offset = 462848 , alignsize = 462848 , offset later = 1
+V/mm-camera(24261): recording timestamp: vframe->ts.tv_sec 22485, vframe->ts.tv_nsec 944653916
+V/mm-camera(24261): in video_thread : got video frame, before if check giving frame to services/encoder
+V/mm-camera(24261): in video_thread : got video frame, giving frame to services/encoder
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+V/mm-camera(24261): in video_thread : wait for video frame 
+V/mm-camera(24261): cam_frame_wait_video E 
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+V/mm-camera(24261): receive_camframe_video_callback E
+V/mm-camera(24261): cam_frame_post_video... in = 409c6000
+V/mm-camera(24261): post_video got lock. q count before enQ 0
+V/mm-camera(24261):  post video , enqueing in busy queue
+V/mm-camera(24261): post_video got lock. q count after enQ 1
+V/mm-camera(24261): cam_frame_post_video... out = 409c6000
+V/mm-camera(24261): receive_camframe_video_callback X
+V/mm-camera(24261): cam_frame_wait_video X
+V/mm-camera(24261): video_thread, wait over..
+V/mm-camera(24261): cam_frame_get_video... in
+V/mm-camera(24261): cam_frame_get_video... got lock
+V/mm-camera(24261): cam_frame_get_video... out = 409c6000
+V/mm-camera(24261): in video_thread : got video frame 
+V/mm-camera(24261): Got video frame :  buffer 1083990016 base 1083990016 
+V/mm-camera(24261): offset = 0 , alignsize = 462848 , offset later = 0
+V/mm-camera(24261): recording timestamp: vframe->ts.tv_sec 22486, vframe->ts.tv_nsec 45880723
+V/mm-camera(24261): in video_thread : got video frame, before if check giving frame to services/encoder
+V/mm-camera(24261): in video_thread : got video frame, giving frame to services/encoder
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+V/mm-camera(24261): in video_thread : wait for video frame 
+V/mm-camera(24261): cam_frame_wait_video E 
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+V/mm-camera(24261): receive_camframe_video_callback E
+V/mm-camera(24261): cam_frame_post_video... in = 40b19000
+V/mm-camera(24261): post_video got lock. q count before enQ 0
+V/mm-camera(24261):  post video , enqueing in busy queue
+V/mm-camera(24261): post_video got lock. q count after enQ 1
+V/mm-camera(24261): cam_frame_post_video... out = 40b19000
+V/mm-camera(24261): receive_camframe_video_callback X
+V/mm-camera(24261): cam_frame_wait_video X
+V/mm-camera(24261): video_thread, wait over..
+V/mm-camera(24261): cam_frame_get_video... in
+V/mm-camera(24261): cam_frame_get_video... got lock
+V/mm-camera(24261): cam_frame_get_video... out = 40b19000
+V/mm-camera(24261): in video_thread : got video frame 
+V/mm-camera(24261): Got video frame :  buffer 1085378560 base 1083990016 
+V/mm-camera(24261): offset = 1388544 , alignsize = 462848 , offset later = 3
+V/mm-camera(24261): recording timestamp: vframe->ts.tv_sec 22486, vframe->ts.tv_nsec 147077013
+V/mm-camera(24261): in video_thread : got video frame, before if check giving frame to services/encoder
+V/mm-camera(24261): in video_thread : got video frame, giving frame to services/encoder
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+V/mm-camera(24261): in video_thread : wait for video frame 
+V/mm-camera(24261): cam_frame_wait_video E 
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+V/mm-camera(24261): receive_camframe_video_callback E
+V/mm-camera(24261): cam_frame_post_video... in = 40b8a000
+V/mm-camera(24261): post_video got lock. q count before enQ 0
+V/mm-camera(24261):  post video , enqueing in busy queue
+V/mm-camera(24261): post_video got lock. q count after enQ 1
+V/mm-camera(24261): cam_frame_post_video... out = 40b8a000
+V/mm-camera(24261): receive_camframe_video_callback X
+V/mm-camera(24261): cam_frame_wait_video X
+V/mm-camera(24261): video_thread, wait over..
+V/mm-camera(24261): cam_frame_get_video... in
+V/mm-camera(24261): cam_frame_get_video... got lock
+V/mm-camera(24261): cam_frame_get_video... out = 40b8a000
+V/mm-camera(24261): in video_thread : got video frame 
+V/mm-camera(24261): Got video frame :  buffer 1085841408 base 1083990016 
+V/mm-camera(24261): offset = 1851392 , alignsize = 462848 , offset later = 4
+V/mm-camera(24261): recording timestamp: vframe->ts.tv_sec 22486, vframe->ts.tv_nsec 248303818
+V/mm-camera(24261): in video_thread : got video frame, before if check giving frame to services/encoder
+V/mm-camera(24261): in video_thread : got video frame, giving frame to services/encoder
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+V/mm-camera(24261): in video_thread : wait for video frame 
+V/mm-camera(24261): cam_frame_wait_video E 
+D/OMX-VENC-720p(24261): 
+D/OMX-VENC-720p(24261): ioctl VEN_IOCTL_CMD_READ_NEXT_MSG failed/stopped
+D/OMX-VENC-720p(24261): omx_venc: Async Thread exit
+E/CameraService(24261): dataCallback(16)
+E/CameraService(24261): CameraService::Client::lockIfMessageWanted E
+I/BootReceiver( 1296): Copying /data/tombstones/tombstone_07 to DropBox (SYSTEM_TOMBSTONE)
+W/AudioSystem( 1296): AudioFlinger server died!
+W/AudioSystem( 1296): AudioPolicyService server died!
+I/ServiceManager( 1214): service 'media.audio_flinger' died
+I/ServiceManager( 1214): service 'media.player' died
+I/ServiceManager( 1214): service 'media.camera' died
+I/ServiceManager( 1214): service 'media.audio_policy' died
+W/IMediaDeathNotifier(24233): media server died
+W/Camera  (24233): Camera server died!
+W/Camera  (24233): ICamera died
+E/Camera  (24233): msgType = 1
+E/Camera  (24233): Error 100
+D/dalvikvm( 1296): GC_FOR_MALLOC freed 843K, 41% free 8026K/13575K, external 2011K/2137K, paused 175ms
+D/PowerManagerService( 1296): New lightsensor value:40, lcdValue:160
+D/PowerManagerService( 1296): lightSensorChangedLocked, buttonValue >= 0, mPowerState = 3
+E/AudioService( 1296): Media server died.
+I/ServiceManager( 1296): Waiting for service media.audio_flinger...
+D/dalvikvm(23970): GC_EXPLICIT freed 95K, 49% free 2775K/5379K, external 1625K/2137K, paused 76ms
+I/ServiceManager( 1296): Waiting for service media.audio_flinger...
+I/ServiceManager( 1296): Waiting for service media.audio_flinger...
+D/PowerManagerService( 1296): New lightsensor value:10, lcdValue:160
+D/PowerManagerService( 1296): lightSensorChangedLocked, buttonValue >= 0, mPowerState = 3
+I/ServiceManager( 1296): Waiting for service media.audio_flinger...
+I/ServiceManager( 1296): Waiting for service media.audio_flinger...
+I/        (24336): ServiceManager: 0xad70
+D/HTC Acoustic(24336): int android::support_audience(), support_a1026: 0
+E/AudioHardwareMSM7X30(24336): =====msm_mixer_open: Opening the device========
+E/AudioHardwareMSM7X30(24336): device handset_rx (index 0, id 0)
+E/AudioHardwareMSM7X30(24336): device handset_tx (index 1, id 1)
+E/AudioHardwareMSM7X30(24336): device headset_stereo_rx (index 2, id 2)
+E/AudioHardwareMSM7X30(24336): device headset_mono_rx (index 3, id 3)
+E/AudioHardwareMSM7X30(24336): device headset_mono_tx (index 4, id 4)
+E/AudioHardwareMSM7X30(24336): device fmradio_handset_rx (index 5, id 5)
+E/AudioHardwareMSM7X30(24336): device speaker_mono_rx (index 6, id 6)
+E/AudioHardwareMSM7X30(24336): device fmradio_speaker_rx (index 7, id 7)
+E/AudioHardwareMSM7X30(24336): device fmradio_headset_rx (index 8, id 8)
+E/AudioHardwareMSM7X30(24336): device tty_headset_mono_tx (index 9, id 9)
+E/AudioHardwareMSM7X30(24336): device tty_headset_mono_rx (index 10, id 10)
+E/AudioHardwareMSM7X30(24336): device speaker_mono_tx (index 11, id 11)
+E/AudioHardwareMSM7X30(24336): device headset_speaker_stereo_rx (index 12, id 12)
+E/AudioHardwareMSM7X30(24336): device usb_headset_stereo_rx (index 13, id 13)
+E/AudioHardwareMSM7X30(24336): device hac_mono_rx (index 14, id 14)
+E/AudioHardwareMSM7X30(24336): device bt_sco_rx (index 15, id 20)
+E/AudioHardwareMSM7X30(24336): device bt_sco_tx (index 16, id 21)
+I/HTC Acoustic(24336): libhtc_acoustic.so(7x30 platform) version 1.0.0.9
+D/HTC Acoustic(24336): int android::support_audience(), support_a1026: 0
+I/HTC Acoustic(24336): Open /system/etc/AdieHWCodec.csv success.
+D/HTC Acoustic(24336): Vision_HTC_20100721
+D/HTC Acoustic(24336): [1] dev_name = handset_rx_midi_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=26, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [2] dev_name = handset_rx_voice_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=26, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [3] dev_name = handset_tx_midi_8000
+I/HTC Acoustic(24336): parse freq 8000
+I/HTC Acoustic(24336): act_size=25, freq=8000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [4] dev_name = handset_tx_voice_8000
+I/HTC Acoustic(24336): parse freq 8000
+I/HTC Acoustic(24336): act_size=25, freq=8000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [5] dev_name = handset_tx_voice_16000
+I/HTC Acoustic(24336): parse freq 16000
+I/HTC Acoustic(24336): act_size=25, freq=16000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [6] dev_name = handset_tx_midi_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=25, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [7] dev_name = handset_tx_voice_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=25, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [8] dev_name = headset_stereo_rx_midi_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=28, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [9] dev_name = headset_stereo_rx_voice_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=28, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [10] dev_name = headset_mono_tx_midi_8000
+I/HTC Acoustic(24336): parse freq 8000
+I/HTC Acoustic(24336): act_size=25, freq=8000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [11] dev_name = headset_mono_tx_voice_8000
+I/HTC Acoustic(24336): parse freq 8000
+I/HTC Acoustic(24336): act_size=25, freq=8000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [12] dev_name = headset_mono_tx_voice_16000
+I/HTC Acoustic(24336): parse freq 16000
+I/HTC Acoustic(24336): act_size=25, freq=16000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [13] dev_name = headset_mono_tx_midi_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=25, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [14] dev_name = headset_mono_tx_voice_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=25, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [15] dev_name = speaker_mono_rx_midi_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=25, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [16] dev_name = speaker_mono_rx_voice_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=25, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [17] dev_name = speaker_mono_tx_midi_8000
+I/HTC Acoustic(24336): parse freq 8000
+I/HTC Acoustic(24336): act_size=25, freq=8000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [18] dev_name = speaker_mono_tx_voice_8000
+I/HTC Acoustic(24336): parse freq 8000
+I/HTC Acoustic(24336): act_size=25, freq=8000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [19] dev_name = speaker_mono_tx_voice_16000
+I/HTC Acoustic(24336): parse freq 16000
+I/HTC Acoustic(24336): act_size=25, freq=16000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [20] dev_name = speaker_mono_tx_midi_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=25, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [21] dev_name = speaker_mono_tx_voice_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=25, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [22] dev_name = tty_headset_mono_rx_voice_8000
+I/HTC Acoustic(24336): parse freq 8000
+I/HTC Acoustic(24336): act_size=28, freq=8000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [23] dev_name = tty_headset_mono_rx_voice_48000
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=28, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [24] dev_name = tty_headset_mono_tx_voice_8000
+I/HTC Acoustic(24336): parse freq 8000
+I/HTC Acoustic(24336): act_size=24, freq=8000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [25] dev_name = tty_headset_mono_tx_voice_16000
+I/HTC Acoustic(24336): parse freq 16000
+I/HTC Acoustic(24336): act_size=24, freq=16000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [26] dev_name = fmradio_headset_rx
+I/HTC Acoustic(24336): act_size=18, freq=0
+E/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE failed -1
+D/HTC Acoustic(24336): [27] dev_name = fmradio_speaker_rx
+I/HTC Acoustic(24336): act_size=18, freq=0
+E/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE failed -1
+D/HTC Acoustic(24336): [28] dev_name = headset_speaker_stereo_rx
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=33, freq=48000
+D/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE success
+D/HTC Acoustic(24336): [29] dev_name = fmtx_headset
+I/HTC Acoustic(24336): parse freq 48000
+I/HTC Acoustic(24336): act_size=28, freq=48000
+E/HTC Acoustic(24336): ioctl ACOUSTIC_UPDATE_ADIE failed -1
+I/HTC Acoustic(24336): Success on updating adie setting
+I/HTC Acoustic(24336): open /system/etc/AudioBTID.csv success.
+I/HTC Acoustic(24336): BT ID table version: VN_HTC_20100719
+E/HTC Acoustic(24336): can't open /dev/htc-acdb -1
+E/HTC Acoustic(24336): update ACDB table from file failed -1
+E/AudioHardwareMSM7X30(24336): Could not set acoustic parameters to share memory
+D/AudioHardwareMSM7X30(24336): mNumBTEndpoints = 22
+E/AudioHardwareMSM7X30(24336): BT name Default (tx,rx)=(1001,1101)
+E/AudioHardwareMSM7X30(24336): BT name Default Car-kit (tx,rx)=(1201,1301)
+E/AudioHardwareMSM7X30(24336): BT name JKDAP3264 (tx,rx)=(1002,1102)
+E/AudioHardwareMSM7X30(24336): BT name JKDAP3265 (tx,rx)=(1003,1103)
+E/AudioHardwareMSM7X30(24336): BT name 9xxPlantronics (tx,rx)=(1004,1104)
+E/AudioHardwareMSM7X30(24336): BT name PROPlantronics (tx,rx)=(1005,1105)
+E/AudioHardwareMSM7X30(24336): BT name 9xxBackBeat (tx,rx)=(1006,1106)
+E/AudioHardwareMSM7X30(24336): BT name Motorola H790 (tx,rx)=(1007,1107)
+E/AudioHardwareMSM7X30(24336): BT name Motorola S9 (tx,rx)=(1009,1109)
+E/AudioHardwareMSM7X30(24336): BT name HBH-IV840 (tx,rx)=(1010,1110)
+E/AudioHardwareMSM7X30(24336): BT name HBH-PV740 (tx,rx)=(1011,1111)
+E/AudioHardwareMSM7X30(24336): BT name HBH-DS220 (tx,rx)=(1012,1112)
+E/AudioHardwareMSM7X30(24336): BT name HBH-DS980 (tx,rx)=(1013,1113)
+E/AudioHardwareMSM7X30(24336): BT name Jabra Halo (tx,rx)=(1014,1114)
+E/AudioHardwareMSM7X30(24336): BT name Jabra STONE (tx,rx)=(1015,1115)
+E/AudioHardwareMSM7X30(24336): BT name Jabra BT3030 (tx,rx)=(1016,1116)
+E/AudioHardwareMSM7X30(24336): BT name BH M300 (tx,rx)=(1017,1117)
+E/AudioHardwareMSM7X30(24336): BT name Nokia BH-905 (tx,rx)=(1018,1118)
+E/AudioHardwareMSM7X30(24336): BT name Nokia BH-106 (tx,rx)=(1019,1119)
+E/AudioHardwareMSM7X30(24336): BT name Nokia BH-216 (tx,rx)=(1020,1120)
+E/AudioHardwareMSM7X30(24336): BT name Samsung WEP410 (tx,rx)=(1021,1121)
+E/AudioHardwareMSM7X30(24336): BT name END (tx,rx)=(0,0)
+E/HTC Acoustic(24336): failed to open A2051 CSV files /system/etc/TPA2051_CFG.csv.
+E/AudioHardwareMSM7X30(24336): set_tpa2051_parameters fail
+D/HTC Acoustic(24336): int android::support_codec_aic3254(), support_aic3254: 0
+E/AudioHardwareMSM7X30(24336): set_aic3254_parameters failed
+D/AudioHardwareInterface(24336): setMode(NORMAL)
+I/AudioHardwareMSM7X30(24336): Set master volume to 7.
+V/MediaPlayerService(24336): MediaPlayerService created
+I/CameraService(24336): CameraService started (pid=24336)
+D/AudioPolicyService(24336): AudioPolicyService::AudioCommandThread::parametersCommand()  before command->mCond.wait()
+I/AudioFlinger(24336): AudioFlinger's thread 0x11c68 ready to run
+I/AudioHardwareMSM7X30(24336): Routing audio to Speakerphone
+D/AudioHardwareMSM7X30(24336): do_route_audio_rpc(1, 1, 1)
+E/AudioHardwareMSM7X30(24336): new_rx = 6
+E/AudioHardwareMSM7X30(24336): new_tx = 11
+D/AudioPolicyService(24336): AudioPolicyService::AudioCommandThread::parametersCommand()  after command->mCond.wait()
+D/AudioHardwareMSM7X30(24336): setVoiceVolume(1.000000)
+I/AudioHardwareMSM7X30(24336): Setting in-call volume to 100 (available range is 0 to 100)
+W/AudioSystem( 1296): AudioFlinger not published, waiting...
+E/AudioService( 1296): Media server started.
+E/AudioHardwareMSM7X30(24336): setParameters() restarting=true
+D/AudioHardwareInterface(24336): setMode(NORMAL)
+W/AudioPolicyManagerBase(24336): setPhoneState() setting same state 0
+D/AudioPolicyManagerBase(24336): setOutputDevice() setting same device 0 or null device for output 1
+D/AudioPolicyManagerBase(24336): setOutputDevice() setting same device 0 or null device for output 1
+E/AudioHardwareMSM7X30(24336): setParameters() restarting=false
+D/PowerManagerService( 1296): bl_tmp:80
+D/PowerManagerService( 1296): New lightsensor value:160, lcdValue:160
+D/PowerManagerService( 1296): lightSensorChangedLocked, buttonValue >= 0, mPowerState = 3
+D/dalvikvm( 1476): GC_EXPLICIT freed 38K, 56% free 2964K/6727K, external 1625K/2137K, paused 61ms
+
